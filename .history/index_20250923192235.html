@@ -24,59 +24,58 @@ File: index.html -->
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TechCon 2024 Conference</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon 2024 Conference</title>
+</head>
 
-    <body>
-        <!-- 
+<body>
+  <!-- 
     Use a <header> tag to contain the top part of the page.
 Include the conference name within an <h1> tag to emphasize its importance.
 Implement a navigation menu using a <nav> tag with links (<a> tags) to other pages: About, Schedule, Register, and Contact. Ensure that each link is properly named and points to the respective HTML files (about.html, schedule.html, register.html, contact.html).
     -->
 
-        <!-- ====================HEADER SECTION==================== -->
-        <header>
-            <h1>TechCon 2024 Conference</h1>
-            <!-- ==========Navigation Menu========== -->
-            <nav>
-                <a href="about.html">About</a>
-                <a href="schedule.html">Schedule</a>
-                <a href="register.html">Register</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+  <!-- ====================HEADER SECTION==================== -->
+  <header>
+    <h1>TechCon 2024 Conference</h1>
+    <!-- ==========Navigation Menu========== -->
+    <nav>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <!-- Main Section:
+  <!-- Main Section:
 
 Utilize a <main> tag to define the dominant content of the webpage.
 Within the main section, use a <section> tag to introduce the conference. This section should include:
 A brief paragraph (<p>) describing the event.
 An embedded promotional video using the <video> tag with controls enabled. Make sure the video is accessible and includes subtitles or a description if available. -->
 
-        <!-- ====================MAIN SECTION==================== -->
-        <main>
-            <section>
-                <p>Join us at TechCon 2024, the premier technology conference bringing together innovators, leaders, and
-                    enthusiasts for a dynamic exchange of ideas, networking, and inspiration.</p>
-                <video controls width="480">
-                    <source src="promo.mp4" type="video/mp4">
-                    <track kind="captions" src="promo.vtt" srclang="en" label="English">
-                    Your browser does not support the video tag. A promotional video for TechCon 2024.
-                </video>
-            </section>
-        </main>
+  <!-- ====================MAIN SECTION==================== -->
+  <main>
+    <section>
+      <p>Join us at TechCon 2024, the premier technology conference bringing together innovators, leaders, and enthusiasts for a dynamic exchange of ideas, networking, and inspiration.</p>
+      <video controls width="480">
+        <source src="promo.mp4" type="video/mp4">
+        <track kind="captions" src="promo.vtt" srclang="en" label="English">
+        Your browser does not support the video tag. A promotional video for TechCon 2024.
+      </video>
+    </section>
+  </main>
 
 
-        <!-- Use a <footer> tag for the bottom part of the webpage.
+  <!-- Use a <footer> tag for the bottom part of the webpage.
 Include copyright information relevant to the event and the current year. Ensure this information is simple and clear. Make sure to explicitly add the text copyright. -->
 
-        <!-- ====================FOOTER SECTION==================== -->
-        <footer>
-            <p>&copy; 2024 TechCon Conference. Copyright.</p>
-        </footer>
-    </body>
+  <!-- ====================FOOTER SECTION==================== -->
+  <footer>
+    <p>&copy; 2024 TechCon Conference. Copyright.</p>
+  </footer>
+</body>
 
 </html>
